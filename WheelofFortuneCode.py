@@ -3,15 +3,6 @@ Wheel of Fortune Game
 Aaron Janaszak
 """
 import random
-import time
-import threading
-import logging
-
-CONT = True
-#Set up players variables
-p1 = "PlayerOne"
-p2 = "PlayerTwo"
-p3 = "PlayerThree"
 
 #Initialize players total bank
 Bank = [0,0,0]
@@ -35,7 +26,7 @@ roundNum = 0
 #decide on wheel wedge values
 wedges = []
 for i in range(1,23):
-    wedges.append(i*100)
+    wedges.append(i*50)
 wedges.append('Lose Turn')
 wedges.append('Bankrupt')
 vowels = 'AEIOU'
