@@ -275,13 +275,3 @@ def FinalRound():
         print("You Lost....")
         print("You're walking away with $"+Bank[maxIndex]+".")
         exit()
-    
-    
-
-#### timer taken from https://www.pythonpool.com/python-timer/
-
-        
-if CONT == True:
-    main()
-else:
-    exit()
